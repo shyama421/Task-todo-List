@@ -1,0 +1,81 @@
+body {
+    background-color: cadetblue;
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.white-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    background-color: white;
+    padding-bottom: 20px;
+    width: 35%;
+    border-radius: 10px;
+}
+
+.addbtn {
+    border: none;
+    border-radius: 10%;
+    padding: 5%;
+    color: white;
+    background-color: darkcyan;
+}
+
+.addbtn:hover {
+    background-color: rgba(0, 139, 139, 0.83);
+}
+
+.task-box {
+    background-color: whitesmoke;
+    height: 50px;
+    width: 403px;
+    padding: 2px 0px 2px 19px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.task_design {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+
+}
+
+.task-box-design {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    cursor: pointer;
+
+}
+
+.dltbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    height: 50px;
+    transition: 2s;
+    cursor: pointer;
+    display: none;
+}
+
+.task-box:hover .dltbtn {
+    display: block;
+
+}
